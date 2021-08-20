@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+	<title>PME Math Club Welcome</title>
+</head>
+<body>
+	<div class = "headerdiv">
+		<header><h2>PME/Math Club Welcome Event - Scavenger Hunt</h2></header>
+	</div>
+	<!-- Area for clues to be displayed -->
+	<div class = "semi-transparent">
+		<p class = "headerdiv">Clue:</p>
+		<p id = "cluepar"></p>
+	</div>
+	<!-- Area for user to make guesses -->
+	<div id = "guessdiv" class = "semi-transparent">
+		<p>Go to the location indicated by the clue and find the keyword. Please enter the keyword here:</p>
+		<input id = "keywordinput" type = "text" name = "keyword" maxlength = "20">
+		<br>
+		<button>Enter</button>
+		<p id = "messagepar"></p>
+	</div>
+	<script type="text/javascript"	src="assets/js/view.js"></script>
+	<script type="text/javascript"	src="assets/js/models.js"></script>
+	<script type="text/javascript"	src="assets/js/listeners.js"></script>
+	<script type="text/javascript"	src="assets/js/app.js"></script>
+</body>
+</html>
