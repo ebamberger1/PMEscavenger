@@ -37,6 +37,10 @@ button:hover {
 	background-color: #B8860B;
 }
 
+button:disabled {
+	background-color: #DCDCDC; 	
+}
+
 .semi-transparent {
 	background-color: rgba(0,0,0,0.7);
 	text-align: center;
