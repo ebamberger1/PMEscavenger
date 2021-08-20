@@ -11,3 +11,8 @@ document.querySelector('#keywordinput').addEventListener('keypress', e => {
 		scavengerHunt.makeGuess(guess.toLowerCase().trim());
     }
 });
+
+// Triggers the current clue to be replaced out with the next clue
+document.querySelector("#nextdiv button").addEventListener('click', e => {
+	scavengerHunt.showNextClue();
+});
