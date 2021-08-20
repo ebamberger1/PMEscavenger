@@ -29,7 +29,7 @@ var scavengerHunt = {
 				showClue(this.clues[this.clues.length - 1]);
 				document.querySelector("#guessdiv input").style.display = "none";
 				document.querySelector("#guessdiv button").style.display = "none";
-				document.querySelector("#guessdiv p").innerHTML = "There is no keyword for this clue. We will be waiting for you at this location."
+				document.querySelector("#guessdiv p").innerHTML = "There is no keyword for this clue. We will be waiting for you at this location.";
 			}
 			else
 				showClue(this.clues[(startidx + numright + 1) % 4]);
